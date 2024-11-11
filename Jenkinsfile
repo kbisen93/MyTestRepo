@@ -1,6 +1,6 @@
 pipeline {
     agent {
-        label 'docker-maven-slave1'
+        label 'docker-maven-slave'
     }
     
     tools {
