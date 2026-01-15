@@ -50,14 +50,14 @@ pipeline {
             }    
         } */
     
- /*   stage('Deploy JAR') {
+    stage('Deploy JAR') {
             steps {
                 sh label: '', script: '''
                             cd "${WORKSPACE}/target"
                             java -cp test-maven-0.0.1.jar com.optum.rxclaim.App
                             '''
             }    
-        }    */
+        }    
         
     }
 }
